@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Cypress run
-      # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
+        # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
         uses: cypress-io/github-action@v6
         with:
           record: true
@@ -20,3 +20,4 @@ jobs:
           # For recording and parallelization to work you must set your CYPRESS_RECORD_KEY
           # in GitHub repo → Settings → Secrets → Actions
           CYPRESS_RECORD_KEY: 7fd43d10-f701-4ae1-9a6c-0e8d9483f8f5
+          
