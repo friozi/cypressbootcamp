@@ -15,7 +15,7 @@ describe('Login',() => {
         // #id = #user
         // . class = .
         cy.get('#user').type('eduardo.finotti@qazando.com.br')
-        cy.get('#password').type('123456 s')
+        cy.get('#password').type('123456')
         // quando
         //clicar em entrar
         cy.get('#btnLogin').click()
